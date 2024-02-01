@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>Layout</header>
+
+    <aside class="side-bar-def">
+        <button id="toggleButton">&#9776;</button>
+    </aside>
+
+    <div id="overlay"></div>
+    <aside id="sidebar">
+        <button id="closeButton">&times;</button>
+        <nav>
+            <ul>
+                <button id="openModal">Modal Open</button>
+                <li>Home</li>
+                <li>Home</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="container">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModalBtn" class="close">&times;</span>
+                <h2>Modal Window</h2>
+                <p>This is some modal</p>
+            </div>
+        </div>
+        <h2>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni earum incidunt cupiditate
+            enim! Officia accusamus magni ex eaque, reiciendis dolorem inventore quisquam nemo
+            laboriosam, architecto ipsam doloremque quod reprehenderit fuga?
+        </h2>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
